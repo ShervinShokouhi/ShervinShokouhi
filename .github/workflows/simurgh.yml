@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v7
       # Replace OWNER/REPO with the repository that holds your copy of this project,
       # and pin a release tag of that repository.
-      - uses: OWNER/REPO@v0.1.0
+      - uses: ShervinShokouhi/simurgh@v0.1.0
         with:
           body: zarrin
           output-dir: simurgh
